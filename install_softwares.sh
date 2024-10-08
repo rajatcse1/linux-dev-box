@@ -43,5 +43,10 @@ sudo apt install mongodb-compass -y
 # Install PyCharm (Community Edition)
 sudo snap install pycharm-community --classic
 
+# Install chrome
+sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome*.deb
+
 echo "Installation complete!"
 
